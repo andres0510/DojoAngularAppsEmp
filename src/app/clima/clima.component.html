@@ -1,0 +1,5 @@
+<p *ngIf="resultado">
+  Temperatura: {{resultado.main.temp}}
+</p>
+<input type="text" #ciudad>
+<button (click)="consultar(ciudad)"></button>
